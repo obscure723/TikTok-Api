@@ -182,6 +182,7 @@ class TikTokApi:
         time.sleep(10)
         await page.mouse.move(0, 0)
         await page.mouse.move(0, 100)
+        print("done")
 
         session = TikTokPlaywrightSession(
             context,
