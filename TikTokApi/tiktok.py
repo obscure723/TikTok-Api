@@ -179,10 +179,10 @@ class TikTokApi:
             )
 
         await page.goto(url)
-        # time.sleep(10)
+        time.sleep(10)
         await page.mouse.move(0, 0)
         await page.mouse.move(0, 100)
-        print("done")
+        print("done!!!!!!")
 
         session = TikTokPlaywrightSession(
             context,
